@@ -17,8 +17,8 @@
 #define max_input 200
 
 void swap(char* a, char* b) {
-    int len = strlen(a)
-    char temp[len + 1];
+    int len_a = strlen(a);
+    char temp[len_a + 1];
     strcpy(temp, a);
     strcpy(a, b);
     strcpy(b, temp);
@@ -26,8 +26,8 @@ void swap(char* a, char* b) {
 
 int partition(char arr[][max_nome_carreira], int low, int high) {
     char pivot[50];
-    strcpy(pivot, arr[high]);
     int i = low - 1,j;
+    strcpy(pivot, arr[high]);
     
     for (j = low; j <= high - 1; j++) {
         if (strcmp(arr[j], pivot) < 0) {
