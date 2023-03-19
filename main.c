@@ -214,7 +214,7 @@ int main(){
         }
 
         if (input[0] == 'i') {
-            i_command(input_strings_array,count,Carreiras_array,&size_carreiras,Paragens_array,&size_paragens);
+            i_command(Carreiras_array,&size_carreiras,Paragens_array,&size_paragens);
             continue;
         }
 
