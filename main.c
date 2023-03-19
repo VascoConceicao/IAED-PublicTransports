@@ -47,7 +47,7 @@ void quicksort(char arr[][max_nome_carreira], int low, int high) {
     }
 }
 
-void i_command(char input[][max_input], int size_input, carreira** Carreiras_array, int* size_carreiras, paragem** Paragens_array, int* size_paragens){
+void i_command(carreira** Carreiras_array, int* size_carreiras, paragem** Paragens_array, int* size_paragens){
 
     int i,j,k,curr_count;
     paragem* paragem_aux;
@@ -86,7 +86,6 @@ void i_command(char input[][max_input], int size_input, carreira** Carreiras_arr
 
 void l_command(char input[][max_input], carreira** Carreiras_array, int* size_carreiras, paragem** Paragens_array, int* size_paragens){
 
-    int i;
     float cost, duration;
     carreira *carreira;
     paragem *paragem_origin, *paragem_destiny;
