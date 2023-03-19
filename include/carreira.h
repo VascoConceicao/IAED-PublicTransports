@@ -21,7 +21,7 @@ float get_custo(carreira* carreira_);
 float get_duracao(carreira* carreira_);
 void print_carreira(carreira* Carreiras_array[10000], char* name, int* size);
 carreira* get_carreira(char* Nome, carreira* Carreiras_array[10000], int* size);
-int insert_carreira(carreira** carreiras_array, int* size, carreira* carreira_to_insert);
+int insert_carreira(carreira* carreiras_array[10000], int* size, carreira* carreira_to_insert);
 void insert_ligacao(ligacao* ligacao_nova, carreira* carreira);
 
 #endif
