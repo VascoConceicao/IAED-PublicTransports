@@ -43,7 +43,7 @@ carreira* get_carreira(char* Nome, carreira* Carreiras_array[10000],int* size){
     return NULL;
 }
 
-void print_carreira(carreira** Carreiras_array, char* name, int* size){
+void print_carreira(carreira* Carreiras_array[10000], char* name, int* size){
     int i; carreira* carreira_;
     float Custo_Total, Duracao_Total;
     if (strcmp(name,"not a name")==0){
