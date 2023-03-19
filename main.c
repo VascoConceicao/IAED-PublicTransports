@@ -158,7 +158,7 @@ void p_command(char input[][max_input], int size_input, paragem** Paragens_array
 }
 
 int main(){
-    int size_paragens = 0, size_carreiras = 0, count = 0,i;
+    int size_paragens = 0, size_carreiras = 0, count = 0;
     char *token, *token_aux, token_copy[max_input], input[max_input],input_strings_array[6][max_input];
     const char s[2] = " ";
     paragem* Paragens_array[10000];
