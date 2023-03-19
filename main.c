@@ -81,10 +81,7 @@ void i_command(char input[][max_input], int size_input, carreira** Carreiras_arr
             }
             printf("\n");
         }
-
     }
-
-    return;
 }
 
 void l_command(char input[][max_input], carreira** Carreiras_array, int* size_carreiras, paragem** Paragens_array, int* size_paragens){
