@@ -1,9 +1,5 @@
 # iaed-23 - project1 
 
-
-Este repositório git pertence a ist199417 e destina-se ao project1 de iaed-23.
-
-
 O enunciado do projecto está disponível em [enunciado.md](enunciado.md).
 
 
