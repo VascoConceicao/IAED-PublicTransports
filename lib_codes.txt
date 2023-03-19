@@ -1,0 +1,7 @@
+gcc -c carreira.c ligacao.c paragem.c -I include    -> cria executaveis (.o) das bibliotecas
+ar cr libprojeto.a carreira.o ligacao.o paragem.o   -> cria biblioteca estática
+mv libprojeto.a lib                                 -> move biblioteca estática para a pasta lib
+gcc main.c -lprojeto -o main -I include -L lib -lm   -> compila main
+
+gcc -c carreira.c ligacao.c paragem.c -I include;ar cr libprojeto.a carreira.o ligacao.o paragem.o;mv libprojeto.a lib;gcc main.c -lprojeto -o main -I include -L lib -lm
+gcc -O3 -Wall -Wextra -Werror -ansi -pedantic -o main *.c -L lib -I include -lm
