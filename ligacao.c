@@ -8,7 +8,7 @@
 ligacao* create_ligacao(paragem *Origin, paragem *Destiny, float cost, float duration){
 
     ligacao* new_ligacao;
-    new_ligacao = (ligacao*)malloc(sizeof(ligacao*));
+    new_ligacao = (ligacao*)malloc(sizeof(ligacao*)+sizeof(paragem*)+sizeof(paragem*));
     new_ligacao->Origin = Origin;
     new_ligacao->Destiny = Destiny;
     new_ligacao->Cost = cost;
